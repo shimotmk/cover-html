@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <p>色の重なり順がわかりやすいように少しずらしています</p>
+
+  <h2>画像１ カバー背景画像</h2>
+  <div class="wp-block-cover has-background-dim-20 has-vk-color-custom-1-background-color has-background-dim"
+  style="background-image:url(&quot;https://www.vektor-inc.co.jp/wp-content/uploads/2020/08/vk-blocks-logo_og.png&quot;);">
+    <div class="wp-block-cover__inner-container">
+      <p class="has-text-align-center has-large-font-size">test</p>
+    </div>
+  </div>
+  
+  <h2>画像２ カバー背景画像なし</h2>
+  <div class="wp-block-cover has-background-dim-20 has-vk-color-custom-1-background-color has-background-dim">
+    <div class="wp-block-cover__image_area"></div>
+    <div class="wp-block-cover__inner-container">
+      <p class="has-text-align-center has-large-font-size">test</p>
+    </div>
+  </div>
+
+  <h2>画像３ 繰り返し背景</h2>
+  <div class="has-background-dim is-repeated has-vk-color-custom-1-background-color block-editor-block-list__block wp-block is-selected wp-block-cover" style="background-image: url(&quot;https://www.vektor-inc.co.jp/wp-content/uploads/2020/03/cropped-icon2020-32x32.png&quot;);">
+  <div class="wp-block-cover__inner-container block-editor-block-list__layout">
+    <p class="block-editor-rich-text__editable block-editor-block-list__block wp-block has-text-align-center has-large-font-size wp-block-paragraph rich-text">test</p>
+  </div>
+  </div>
+
+  <h2>画像４ カバーブロックの構造</h2>
+  <div class="wp-block-cover has-background-dim-20 has-vk-color-custom-1-background-color has-background-dim">
+    <div class="wp-block-cover__image_area">
+      <img class="wp-block-cover__image" src="https://www.vektor-inc.co.jp/wp-content/uploads/2020/08/vk-blocks-logo_og.png" alt="">
+    </div>
+    <div class="wp-block-cover__inner-container">
+      <p class="has-text-align-center has-large-font-size">aaaaa</p>
+    </div>
+  </div>
+  <p>imgタグで出力している</p>
+
+</body>
+</html>
